@@ -2,13 +2,6 @@
   "name": "awaitingimage-web-app",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "bootstrap": "^3.3.7",
-    "react": "^16.2.0",
-    "react-bootstrap": "^0.31.5",
-    "react-dom": "^16.2.0",
-    "react-scripts-ts": "2.8.0"
-  },
   "scripts": {
     "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
@@ -19,12 +12,21 @@
     "lintdiff": "git diff --name-only --cached --relative | grep '\\.tsx?$' | xargs tslint | snazzy",
     "fixcode": "tslint --project . -e '**/*.js' --fix"
   },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0",
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.31.5",
+    "react-dom": "^16.2.0",
+    "react-scripts-ts": "2.8.0"
+  },
   "devDependencies": {
     "@types/jest": "^21.1.9",
     "@types/node": "^8.5.2",
     "@types/react": "^16.0.31",
     "@types/react-bootstrap": "^0.31.8",
     "@types/react-dom": "^16.0.3",
+    "@types/react-test-renderer": "^16.0.0",
     "react-test-renderer": "^16.2.0",
     "snazzy": "^7.0.0",
     "ts-jest": "^22.0.0",
