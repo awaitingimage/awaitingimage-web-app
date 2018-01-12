@@ -1,6 +1,6 @@
 import * as React from 'react';
 import './App.css';
-import { Grid, Row, Col, Image } from 'react-bootstrap';
+import { Grid, Row, Col, Image, Label } from 'react-bootstrap';
 
 const headshot = require('../static/images/headshot.png');
 // const logo = require('../static/images/logo.svg');
@@ -15,6 +15,7 @@ class App extends React.Component {
               <Image src={headshot} thumbnail responsive className="headshot"/>
             </Col>
           </Row>
+          <div className="main-content">
           <Row>
             <Col><h1>Liam Farrell</h1></Col>
           </Row>
@@ -47,6 +48,81 @@ class App extends React.Component {
               </p>
             </Col>
           </Row>
+          {/* <hr className="horizontal-line"/> */}
+          <Row>
+            <Col>
+              <p>
+                <Label bsStyle="primary">Scrum Master</Label>{' '}
+                <Label bsStyle="primary">Agile Coaching</Label>{' '}
+                <Label bsStyle="primary">Team Leadership</Label>{' '}
+                <Label bsStyle="primary">Technical Trainer</Label>{' '}
+                <Label bsStyle="primary">Javascript / ES6</Label>{' '}
+                <Label bsStyle="primary">React</Label>{' '}
+                <Label bsStyle="primary">React Native</Label>{' '}
+                <Label bsStyle="primary">Redux</Label>{' '}
+                <Label bsStyle="primary">Node.js</Label>{' '}
+                <Label bsStyle="primary">AWS</Label>{' '}
+                <Label>Typescript</Label>{' '}
+                <Label>HTML</Label>{' '}
+                <Label>CSS / SASS</Label>{' '}
+                <Label>MySQL</Label>{' '}
+                <Label>Java</Label>{' '}
+                <Label>C#</Label>{' '}
+                <Label>XML</Label>{' '}
+                <Label>Android</Label>{' '}
+                <Label>Git</Label>{' '}
+                <Label>Linux</Label>{' '}
+                <Label>Mac OS X</Label>{' '}
+              </p>
+            </Col>
+          </Row>
+
+          <Row>
+            <Col>
+            <h2 className="section-heading">Experience</h2>
+            </Col>
+          </Row>
+
+          <Row className="top-10">
+            <Col xs={6} md={4} className="project-title">
+            Project Lead - Tower of London
+            </Col>
+            <Col xs={6} md={4} className="project-date">
+            October 2017 - January 2018
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <ul>
+                <li>Architected a solution for the update of the audio visitors guide to a mobile device based platform.</li>
+                <li>Project planning, setup and team leadership for CMS, mobile application and integration teams.</li>
+              </ul>
+            </Col>
+          </Row>
+
+          <Row className="top-10">
+            <Col xs={6} md={4} className="project-title">
+            Scrum Master and Agile Coach - Diabetes UK
+            </Col>
+            <Col xs={6} md={4} className="project-date">
+            March 2017 – September 2017
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <ul>
+                <li>Scrum Master for a project to redesign, rebuild and migrate content for the main website of Diabetes UK.</li>
+                <li>Coached a member of the team to step up and take on the role of Scrum Master for the project.</li>
+              </ul>
+            </Col>
+          </Row>
+
+
+
+
+
+        </div>
+
         </Grid>
         <p className="App-intro">
           Currently under construction...

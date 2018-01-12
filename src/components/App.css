@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  min-width: 300px;
 }
 
 .App-logo {
@@ -30,4 +31,42 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.horizontal-line {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.section-heading {
+  border-bottom: 2px #888 solid;
+  width: 100%;
+  text-align: left;
+}
+
+.main-content{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.project-title {
+  text-align: left;
+  font-weight: 600;
+}
+
+.project-date {
+  text-align: right;
+  font-weight: 600;
+}
+
+.top-10 {
+  margin-top: 10px;
+}
+
+li {
+  text-align: left;
 }
