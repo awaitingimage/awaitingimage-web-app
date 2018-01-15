@@ -5,7 +5,7 @@
   "scripts": {
     "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
-    "deploy": "yarn run build && aws s3 sync build/ s3://awaitingimage.com --profile awaitingimage",
+    "deploy": "yarn run build && aws s3 sync build/ s3://awaitingimage.com --profile default",
     "test": "react-scripts-ts test --env=jsdom",
     "eject": "react-scripts-ts eject",
     "lint": "tslint --project . -e '**/*.js' -t verbose | snazzy",
