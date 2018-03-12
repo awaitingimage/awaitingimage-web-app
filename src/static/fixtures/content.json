@@ -2,6 +2,14 @@
     "summary": "A high-performing Technical Scrum Master and Agile Delivery Manager with a passion for solving complex problems by utilising Agile, mobile technology and open source software. Certified Scrum Master, Product Owner and experienced full stack developer. Experienced coaching and coordinating multi-agency development teams for private sector and government bodies in Agile. Sets and adheres to high quality standards across teams and projects.",
     "experiences": [
         {
+            "title": "Scrum Master - Sapient Ltd",
+            "dates":"February 2018 – Current",
+            "bullets": [
+                "Scrum Master for a financial services client.",
+                "Working with a Technical Scrum team to implement architecturual patterns across the programme."
+            ]
+        },
+        {
             "title": "Agile Delivery Manager – Tower of London",
             "dates":"October 2017 – January 2018",
             "bullets": [
