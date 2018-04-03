@@ -1,0 +1,11 @@
+.privacy-content{
+    background-color: white;
+    padding-right: 45px;
+    padding-left: 45px;
+    margin: 30px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14);
+}
+
+.privacy-background{
+    background-color: whitesmoke;
+}

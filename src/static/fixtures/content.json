@@ -55,19 +55,19 @@
             ]
         },
         {
-            "title": "Performance Test Workstream Lead – Ministry of Defence",
-            "dates":"2013",
-            "bullets": [
-                "Responsibility for the planning and delivery of the Performance Test workstream.",
-                "Coordinated testers and technical resources to conduct system Tests."
-            ]
-        },
-        {
             "title": "Mobile Business Analyst – Avon and Somerset Constabulary",
-            "dates":"2012",
+            "dates":"2013",
             "bullets": [
                 "Running of requirement workshops incorporating multiple areas of the clients business.",
                 "Gathering and analysis of non-functional business requirements, focusing on usability and connectivity of mobile devices."
+            ]
+        },
+        {
+            "title": "Performance Test Workstream Lead – Ministry of Defence",
+            "dates":"2012",
+            "bullets": [
+                "Responsibility for the planning and delivery of the Performance Test workstream.",
+                "Coordinated testers and technical resources to conduct system Tests."
             ]
         },
         {

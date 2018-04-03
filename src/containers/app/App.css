@@ -1,6 +1,13 @@
 .App {
-  text-align: center;
   min-width: 300px;
+}
+
+.p{
+  margin-bottom:15px;
+}
+
+.center{
+  text-align: center;
 }
 
 .App-logo {
