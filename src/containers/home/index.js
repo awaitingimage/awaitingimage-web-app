@@ -1,20 +1,17 @@
 import * as React from 'react'
-import { Grid, Row, Col, Image, Label } from 'react-bootstrap'
+import { Grid, Row, Col, Label } from 'react-bootstrap'
 import Experience from '../../components/Experience/Experience'
+import Header from '../../components/Header/Header'
 
-const headshot = require('../../static/images/headshot.png')
 const content = require('../../static/fixtures/content.json')
 
 class Home extends React.Component {
   render () {
     return (
       <div className='App'>
-        <Grid>
-          <Row className='App-header'>
-            <Col md={4} mdOffset={4} xs={4} xsOffset={4}>
-              <Image src={headshot} thumbnail responsive className='headshot' />
-            </Col>
-          </Row>
+        
+              <Header/>
+              <Grid>
           <div className='main-content'>
             <Row className='center'>
               <Col><h1>Liam Farrell</h1></Col>
